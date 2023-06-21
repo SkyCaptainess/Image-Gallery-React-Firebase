@@ -10,13 +10,16 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCaXZ2MyLqXXhPmCB3pn-_95efMlLlMe-0",
-  authDomain: "gallery-37066.firebaseapp.com",
-  projectId: "gallery-37066",
-  storageBucket: "gallery-37066.appspot.com",
-  messagingSenderId: "423303952734",
-  appId: "1:423303952734:web:86102cb85ad17664a637cf",
+  apiKey: "AIzaSyCO7tLtxHAU97ycKuXOtyrXP08_rCqbHJI",
+  authDomain: "image-gallery-test-bb2b0.firebaseapp.com",
+  projectId: "image-gallery-test-bb2b0",
+  storageBucket: "image-gallery-test-bb2b0.appspot.com",
+  messagingSenderId: "302552423038",
+  appId: "1:302552423038:web:2f721a08ce6cf1b380d62f",
+  measurementId: "G-G51JBV7LC3"
 };
+
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
